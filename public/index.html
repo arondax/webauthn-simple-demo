@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WebAuthn Demo</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>WebAuthn Authentication Demo</h1>
+      <p>Register and login using secure biometric or hardware-based authentication</p>
+    </header>
+    
+    <div class="auth-buttons">
+      <button class="btn register-btn" onclick="registerUser()">Register</button>
+      <button class="btn login-btn" onclick="login()">Login</button>
+    </div>
+    
+    <div id="status-message"></div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@simplewebauthn/browser@7.2.0/dist/bundle/index.umd.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
