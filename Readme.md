@@ -32,14 +32,14 @@ webauthn-demo/
    git clone https://github.com/your-username/webauthn-simple-demo.git
    cd webauthn-simple-demo
 2. Install dependencies:
-```bash
+``bash
   npm install
 
 3. Start the server:
-```bash
+``bash
   node servidor.js
 4. Open Firefox and visit:
-```bash
+``bash
   http://localhost:3000
 
 ## 🛠️ Requirements
